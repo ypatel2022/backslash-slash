@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48b9e4c6281bce4bae4e98838ed813b, type: 3}
+  m_Name: Karambit Knife
+  m_EditorClassIdentifier: 
+  name: Karambit Knife
+  upgrades:
+  - level: 0
+    damage: 17
+    price: 150000
+    purchased: 0
+  - level: 1
+    damage: 34
+    price: 500000
+    purchased: 0
+  - level: 2
+    damage: 68
+    price: 900000
+    purchased: 0
+  - level: 3
+    damage: 136
+    price: 1500000
+    purchased: 0
+  - level: 4
+    damage: 272
+    price: 3000000
+    purchased: 0
+  currentLevel: -1
+  currentDamage: 17
+  isEquipped: 0
+  delay: 0.1
